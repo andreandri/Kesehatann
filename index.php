@@ -47,16 +47,16 @@ if (!isset($_SESSION['id_user'])) {
                 <img src="img/anemia2.jpg" alt="Anemia" class="home-img">
                 <div class="image-caption">Anemia</div>
             </a>
-            <a href="kesehatan_reproduksi.php">
-                <img src="img/tentang.jpg" alt="Kesehatan Reproduksi" class="home-img">
-                <div class="image-caption">Kesehatan Reproduksi</div>
-            </a>
             <a href="kesehatan_mental.php">
-                <img src="img/tentang.jpg" alt="Kesehatan Mental" class="home-img">
+                <img src="img/mental.jpeg" alt="Kesehatan Mental" class="home-img">
                 <div class="image-caption">Kesehatan Mental</div>
             </a>
+            <a href="kesehatan_reproduksi.php">
+                <img src="img/reproduksi.jpg" alt="Kesehatan Reproduksi" class="home-img">
+                <div class="image-caption">Kesehatan Reproduksi</div>
+            </a>
             <a href="nutrisi.php">
-                <img src="img/tentang.jpg" alt="Masalah Nutrisi" class="home-img">
+                <img src="img/nutrisi.jpg" alt="Masalah Nutrisi" class="home-img">
                 <div class="image-caption">Masalah Nutrisi</div>
             </a>
         </div>

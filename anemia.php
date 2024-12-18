@@ -1,15 +1,5 @@
 <?php
-// Koneksi ke database
-$host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "kesehatan";
-
-$conn = new mysqli($host, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
-}
+include 'koneksi.php';
 
 // Query untuk mengambil pertanyaan terkait Anemia
 $sql = "SELECT pertanyaan FROM tb_pertanyaan_kesehatan WHERE id_kategori = 1";
@@ -39,8 +29,8 @@ $conn->close();
             <img src="img/logo.png" alt="Logo" class="logo">
             <h1>Web Kesehatan UNRIYO</h1>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#about-us">About Us</a></li>
+                <li><a href="index.php#home">Home</a></li>
+                <li><a href="index.php#about">About Us</a></li>
                 <li><a href="profile.php">Akun Saya</a></li>
             </ul>
         </nav>
