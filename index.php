@@ -44,7 +44,7 @@ if (!isset($_SESSION['id_user'])) {
 
         <div class="home-images">
             <a href="anemia.php">
-                <img src="img/tentang.jpg" alt="Anemia" class="home-img">
+                <img src="img/anemia2.jpg" alt="Anemia" class="home-img">
                 <div class="image-caption">Anemia</div>
             </a>
             <a href="kesehatan_reproduksi.php">
